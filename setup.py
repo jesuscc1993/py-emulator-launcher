@@ -12,7 +12,7 @@ else:
       winreg.SetValueEx(key, '', 0, winreg.REG_SZ, 'URL: Emulator Protocol')
 
     with winreg.CreateKey(winreg.HKEY_CLASSES_ROOT, r'emu\shell\open\command') as command_key:
-      command_value = f'"{python_path}" "Y:\\Projects\\python\\emulator_launcher\\emulator_launcher.py" "%1"'
+      command_value = f'"{python_path}" "{os.getcwd()}\\emulator_launcher.py" "%1"'
       winreg.SetValueEx(command_key, '', 0, winreg.REG_SZ, command_value)
 
     print('Registry entries created successfully.')
