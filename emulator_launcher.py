@@ -12,7 +12,7 @@ emulators = {
   'duckstation': (f'/DuckStation/duckstation-qt-x64-ReleaseLTCG.exe', ''),
   'mgba': (f'/mGBA/mGBA.exe', ''),
   'p64': (f'/Project64/Project64.exe', ''),
-  'pcsx2': (f'/PCSX2/pcsx2-qtx64.exe', ''),
+  'pcsx2': (f'/PCSX2/pcsx2-qt.exe', ''),
   'ppsspp': (f'/PPSSPP/PPSSPPWindows64.exe', ''),
   'rpcs3': (f'/RPCS3/rpcs3.exe', ''),
   'ryujinx': (f'/Ryujinx/Ryujinx.exe', ''),
